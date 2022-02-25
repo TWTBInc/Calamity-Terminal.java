@@ -10,6 +10,6 @@ The speed of this version of Calamity Terminal is incredible! You can do anythin
 
 Java is a language with higher stability than Python and with better error handling our crash rates have never been this low! Even when completely misusing the program during testing we still got no crashes!
 
-## Free and Open Source Software (FOSS)
+## Open source Software (OSS)
 
-Calamity Terminal is FOSS or Free and Open Source Software meaning that you can trust us. But if you still don't you can take a look through the source code and even compile it yourself.
+Calamity Terminal is OSS or Open Source Software meaning that you can trust us. But if you still don't you can take a look through the source code and even compile it yourself. These options aren't present on most if not all other sets of software!
