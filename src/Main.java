@@ -13,7 +13,7 @@ import java.awt.Desktop;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-// Purposes for all the imports Scanner for user input File for manipulating files IOException because some things need it Desktop so we make sure we aren't trying to open firefox on a server URI so we can open firefox as a webpage URISyntaxException so we can make sure that we aren't about to kill ourselves Base64 would allow us to create a random crypt and Random to create random stuff lol
+// Purposes for all the imports Scanner for user input File for manipulating files IOException because some things need it Desktop so we make sure we aren't trying to open firefox on a server URI so we can open firefox as a webpage URISyntaxException so we can make sure that we aren't about to kill ourselves and Random to create random stuff lol
 
 public class Main {
 
@@ -42,7 +42,7 @@ public class Main {
 					break;
 
 				case "clear":
-					System.out.println("\n".repeat(100));
+					System.out.println("\033[H\033[2J");
 					break;
 
 				case "myself":
@@ -201,6 +201,9 @@ public class Main {
         			userInput = input.nextLine();
         			System.out.println(userInput);
         			break;
+			
+			    case "cls":
+					
 
 				case "":
 					break;
